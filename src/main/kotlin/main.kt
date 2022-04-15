@@ -3,8 +3,13 @@ fun main(){
     println(evenIndices(listOf("James", "Purity", "mall", "market", "Add", "Andy", "Bus", "Nissan", "Asap", "Rocky")))
 
     //Qn two
-   heightOfPeople(listOf(15.5, 10.5, 12.0, 16.3, 17.0))
+   heightOfPeople(listOf(1.55, 1.05, 1.20, 1.63, 1.70))
 
+    //Qn three
+    var a = Person("Mary", 56, 16.5,65.0)
+    var b = Person("Alan", 26, 16.2,54.5, )
+    var c = Person ("Odero", 28, 15.0,64.3)
+    var d = Person("OLuoch", 24, 17.2,65.0)
 }
 //A function that prints out the even indices in a list of stings
 fun evenIndices(names: List<String>): List<String> {
